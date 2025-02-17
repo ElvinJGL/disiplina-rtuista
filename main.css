@@ -1,0 +1,57 @@
+/* repetitive style class */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.bg-img {
+    background-image: url("./img/rtu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    border: solid 1rem #020324;
+    z-index: -1;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+
+.col {
+    flex: 1;
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-end {
+    text-align: end;
+    padding: 10px;
+}
+
+

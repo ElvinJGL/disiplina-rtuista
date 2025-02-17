@@ -1,0 +1,37 @@
+/*unique style class*/
+
+.rtu-logo-padding{
+    padding-left: 20px;
+}
+
+img.rtu-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.text-hover:hover{
+    text-decoration: underline;
+}
+
+.text-hover-2:hover{
+    text-decoration: underline;
+    background-color: rgba(0,0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.font-size{
+    font-size: 50px;
+}
+
+.font-size2{
+    font-size: 20px;
+}
+
+button.login-button{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0,0, 0, 0.5);
+    border: 1px white solid;
+    border-radius: 10px;
+    font-family: Arial;
+}
