@@ -8,6 +8,11 @@
 
 body {
     font-family: Arial;
+    background-color: black;
+}
+
+.opacity{
+    opacity: 0.9;
 }
 
 .bg-img {
@@ -58,5 +63,3 @@ img.rtu-logo {
     text-align: end;
     padding: 10px;
 }
-
-

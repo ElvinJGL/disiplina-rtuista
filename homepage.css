@@ -1,4 +1,9 @@
 .style{
     background-color: navy;
     color: #E1B954;
+    text-decoration: none;
+}
+
+.style a:hover{
+    text-decoration: underline;
 }

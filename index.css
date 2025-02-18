@@ -15,12 +15,24 @@
     border-radius: 10px;
 }
 
+.text-margin{
+    margin-right: 1rem;
+}
+
+.p-margin{
+    margin-left: 1rem;
+}
+
+
+
 .font-size{
     font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 70px;
 }
 
 .font-size2{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 button.login-button{
