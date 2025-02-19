@@ -8,12 +8,8 @@
 
 body {
     font-family: Arial;
-    background-color: black;
 }
 
-.opacity{
-    opacity: 0.9;
-}
 
 .bg-img {
     background-image: url("./img/rtu.png");
@@ -22,6 +18,8 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    left: 0;
+    top: 0;
     position: fixed;
     border: solid 1rem #020324;
     z-index: -1;

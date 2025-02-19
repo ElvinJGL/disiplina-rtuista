@@ -1,7 +1,14 @@
 /*unique style class*/
+body{
+    background-color: black;
+}
 
 .rtu-logo-padding{
     padding-left: 20px;
+}
+
+.opacity{
+    opacity: 0.8;
 }
 
 
