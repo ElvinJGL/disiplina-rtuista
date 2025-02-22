@@ -15,14 +15,14 @@
 <body>
     <div class="container-fluid">
         <div class="row px-0 py-0">
-            <nav class="navbar navbar-expand-lg bg-color">
+            <nav class="navbar navbar-expand-lg bg-color fixed-top">
                 <div class="container-fluid">
                     <div class="px-3">
                         <a href="https://www.rtu.edu.ph/" target="_blank">
                             <img class="rtu-logo" src="./img/rizal-technological-university-logo.png">
                         </a>
                     </div>
-                    <a class="navbar-brand text-warning fs-2" href="#">DISIPLINA</a>
+                    <a class="navbar-brand text-white fs-2" href="#">RIZAL TECHNOLOGICAL UNIVERSITY</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,8 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active text-warning" aria-current="page"
+                                    href="./homepage.html">Home</a>
                             </li>
                             <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -42,12 +43,27 @@
                                     About
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#"> RTU</a></li>
-                                    <li><a class="dropdown-item" href="#">Insert Here</a></li>
+                                    <li><a class="dropdown-item" href=""> RTU</a></li>
+                                    <li><a class="dropdown-item" href="">Mission and Vision</a></li>
+                                    <!-- <li>
+                                        <hr class="dropdown-divider">
+                                    </li> -->
+                                    <li><a class="dropdown-item" href="">This Website</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-warning" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+                                    <li><a class="dropdown-item" href="">Notification</a></li>
+                                    <li><a class="dropdown-item" href="">Settings</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Insert Here</a></li>
+                                    <li><a class="dropdown-item" href="./loginpage.html">Log Out</a></li>
                                 </ul>
                             </li>
                             <!-- <li class="nav-item">
@@ -64,61 +80,76 @@
         </div>
     </div>
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner img-padding">
             <div class="carousel-item active">
-                <img src="./img/rtu.png" class="image-fluid w-100" alt="...">
+                <img src="./img/1.png" class="image-fluid w-100 img-size" alt="...">
             </div>
-
             <div class="carousel-item">
-                <img src="./img/1.png" class="image-fluid w-100" alt="...">
+                <img src="./img/2.png" class="image-fluid w-100 img-size" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/3.png" class="image-fluid w-100 img-size" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/4.png" class="image-fluid w-100 img-size" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/5.png" class="image-fluid w-100 img-size" alt="...">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying " data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying "
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
     <hr class="hr">
-    <div class="row">
-        <div class="col">
+    <div class="container-fluid">
+        <div class="row bg-color text-center px-5">
+            <div class="text-white fs-1 text-center">
+                STUDENTS WITH MISCONDUCT
+            </div>
             <div class="card" style="width: 18rem;">
-                <img src="./img/picture.png" class="card-img-top" alt="...">
+                <img src="./img/laurence.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Elvin Jeorge G. Landicho</h5>
-                    <p class="card-text">Go to my page to know more about me! </p>
-                    <a href="https://elvinjgl.github.io/landicho-aboutme/" target="_blank" class="btn btn-primary">Click
-                        Here</a>
+                    <h5 class="card-title">Laurence Gregorio</h5>
+                    <p class="card-text">Reason: Deadly Weapon</p>
+                    <a href="" class="btn btn-primary">More Info</a>
                 </div>
             </div>
-        </div>
-        <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="./img/1096686.png" class="card-img-top" alt="...">
+                <img src="./img/gerald.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Random Site</h5>
-                    <p class="card-text">Check out some random website</p>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
-                        class="btn btn-primary">Click Here</a>
+                    <h5 class="card-title">Gerald Delossantos</h5>
+                    <p class="card-text">Reason: Cheating</p>
+                    <a href="" class="btn btn-primary">More Info</a>
                 </div>
             </div>
-        </div>
-        <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="./img/rizal-technological-university-logo.png" class="card-img-top" alt="...">
+                <img src="./img/lebron.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">RTU</h5>
-                    <p class="card-text">Go to Official Page of RTU</p>
-                    <a href="https://www.rtu.edu.ph/" target="_blank" class="btn btn-primary">Click Here</a>
+                    <h5 class="card-title">Lebron James</h5>
+                    <p class="card-text">Reason: Gambling</p>
+                    <a href="" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/spiderman.jpg" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spiderman</h5>
+                    <p class="card-text">Reason: Inappropriate Dress</p>
+                    <a href="" class="btn btn-primary">More Info</a>
                 </div>
             </div>
         </div>
     </div>
 
-    
+
 
     <!-- <div class="style row align-items-center">
         <div>
