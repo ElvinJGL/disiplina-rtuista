@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #275998;
+    padding: 15px 30px;
+    color: white;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    border: 2px solid;
+    border-radius: 10%;
+    margin-right: 40px;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.background{
+    background: url('RTU.jpg') no-repeat center center fixed;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #275999;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(255, 255, 255, 0.7);
+}
+.overlay-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.overlay-text p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
