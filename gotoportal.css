@@ -27,3 +27,10 @@ body{
     padding: 2rem;
     margin: 1rem;
 }
+
+.hov{
+    text-decoration: none;
+}
+.hov:hover{
+    text-decoration: underline;
+}
