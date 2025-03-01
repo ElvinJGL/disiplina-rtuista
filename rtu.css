@@ -1,0 +1,50 @@
+.bg-color{
+    background-color: #275998;
+}
+.about{
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 80px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #275998; /* Grey text */
+    width: 102.05%; /* Full width */
+    -webkit-text-stroke: 1px #ffd700;
+}
+.photo img{
+    float: left;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.mission{    
+    background: rgba(39, 89, 238, 0.6);
+    padding: 15px;
+}
+.mission p{
+    color: whitesmoke;
+    font-weight: 100;
+}
+.mission h3{
+    font-weight: bold;
+    color: #ffd700;
+    -webkit-text-stroke: 2px #062c51;
+}
+.hr{
+    margin-right: 20%;
+    margin-left: 5%;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+}
+.photo2 img{
+    float: right;
+    padding-left: 5px;
+    border-radius: 15px;
+}

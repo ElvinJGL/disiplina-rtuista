@@ -1,0 +1,33 @@
+.bg-color{
+    background-color: #275998;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 55px;
+}
+.overlay-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #275999;
+}
+.overlay-text p{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #faebd7;
+}
+.mission{
+    background: rgba(39, 89, 238, 0.7);
+    border-radius: 10px;
+}
+.vision{
+    background: rgba(39, 89, 238, 0.7);
+    border-radius: 10px;
+}
+.philosophy{
+    background: rgba(39, 89, 238, 0.7);
+    border-radius: 10px;
+}
