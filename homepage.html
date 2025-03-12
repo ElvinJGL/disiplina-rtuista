@@ -30,8 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-warning" aria-current="page"
-                                href="./homepage.html">Home</a>
+                            <a class="nav-link active text-warning" aria-current="page" href="./homepage.html">Home</a>
                         </li>
                         <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -44,7 +43,8 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="rtu.html">RTU</a></li>
                                 <!-- <li><a class="dropdown-item" href=""> RTU</a></li> -->
-                                <li><a class="dropdown-item" href="./mission_vision.html">Mission, Vision, and Philosophy</a></li>
+                                <li><a class="dropdown-item" href="./mission_vision.html">Mission, Vision, and
+                                        Philosophy</a></li>
                                 <li><a class="dropdown-item" href="./goals_objective.html">Goals and Objectives</a></li>
                                 <!-- <li>
                                     <hr class="dropdown-divider">
@@ -111,49 +111,181 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
     </div>
     <hr class="hr">
     <div class="container-fluid">
         <div class="row bg-color text-center px-5">
-            <div class="text-white fs-1 text-center">
-                STUDENTS WITH MISCONDUCT
+            <div class="row">
+                <div class="col p-0">
+                    <div class="text-white h1 text-center">
+                        <button type="button" class="btn btn-primary fs-1 px-4" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            +
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">Add Another
+                                            Student</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-black">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Name"
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control" placeholder="Student ID"
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                            <input type="text" class="form-control" placeholder="Reason"
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label fs-5">Upload Photo</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Grade Level
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item text-center" href="#">7</a></li>
+                                                <li><a class="dropdown-item text-center" href="#">8</a></li>
+                                                <li><a class="dropdown-item text-center" href="#">9</a></li>
+                                                <li><a class="dropdown-item text-center" href="#">10</a></li>
+                                                <li><a class="dropdown-item text-center" href="#">Senior High</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        STUDENTS WITH MISCONDUCT
+                    </div>
+                </div>
+            </div>
+            <div class="row p-0">
+                <div class="col">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Grade Level
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#grade-7">Grade 7</a></li>
+                            <li><a class="dropdown-item" href="#grade-8">Grade 8</a></li>
+                            <li><a class="dropdown-item" href="#grade-9">Grade 9</a></li>
+                            <li><a class="dropdown-item" href="#grade-10">Grade 10</a></li>
+                            <li><a class="dropdown-item" href="#senior">Senior High</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr text-warning">
+            <div class="text-white h1 text-center" id="senior">
+                SENIOR HIGH
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="./img/laurence.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Laurence Gregorio</h5>
+                    <p class="card-text">Student ID: 1234-123456</p>
                     <p class="card-text">Reason: Deadly Weapon</p>
-                    <a href="./underconstruction.html" class="btn btn-primary">More Info</a>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="./img/gerald.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Gerald Delossantos</h5>
+                    <p class="card-text">Student ID: 1234-123456</p>
                     <p class="card-text">Reason: Cheating</p>
-                    <a href="./underconstruction.html" class="btn btn-primary">More Info</a>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="./img/lebron.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Lebron James</h5>
+                    <p class="card-text">Student ID: 1234-123456</p>
                     <p class="card-text">Reason: Gambling</p>
-                    <a href="./underconstruction.html" class="btn btn-primary">More Info</a>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="./img/spiderman.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Spiderman</h5>
+                    <p class="card-text">Student ID: 1234-123456</p>
                     <p class="card-text">Reason: Inappropriate Dress</p>
-                    <a href="./underconstruction.html" class="btn btn-primary">More Info</a>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
                 </div>
             </div>
+
+            <hr class="hr text-warning">
+            <div class="text-white h1 text-center" id="grade-10">
+                GRADE 10
+            </div>
+
+
             <div class="card" style="width: 18rem;">
                 <img src="./img/pfp.jpg" class="card-img-top pt-2" alt="...">
                 <div class="card-body">
-                    <a href="./underconstruction.html" class="btn btn-primary">Add</a>
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
+                </div>
+            </div>
+
+            <hr class="hr text-warning">
+            <div class="text-white h1 text-center" id="grade-9">
+                GRADE 9
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pfp.jpg" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
+                </div>
+            </div>
+
+            <hr class="hr text-warning">
+            <div class="text-white h1 text-center" id="grade-8">
+                GRADE 8
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pfp.jpg" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
+                </div>
+            </div>
+
+            <hr class="hr text-warning">
+            <div class="text-white h1 text-center" id="grade-7">
+                GRADE 7
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pfp.jpg" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <!-- <a href="./underconstruction.html" class="btn btn-primary">More Info</a> -->
                 </div>
             </div>
         </div>
