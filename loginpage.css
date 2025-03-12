@@ -91,3 +91,23 @@ body{
     text-decoration: underline;
 }
 
+.register{
+    margin-top: 1rem;
+    font-size: 14px;
+    
+}
+
+.extras2{
+    text-decoration: none;
+    color: white;
+}
+.extras2:hover{
+    text-decoration: underline;
+}
+
+.validator{
+    color: red;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}

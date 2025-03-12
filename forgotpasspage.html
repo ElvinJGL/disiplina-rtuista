@@ -9,38 +9,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="loginpage.css">
-    <title>Login Page</title>
+    <title>Forgot Password</title>
 </head>
 
 <body>
     <div class="bg-img opacity"></div>
     <div class="align-container-center">
         <form class="container" id="login-form">
-            <a class="text-white text-decoration-none text-hover" href="./gotoportal.html">Go Back</a>
-            <h1 class="text-align-center login-margin">Login</h1>
+            <h1 class="text-align-center">Forgot Password?</h1>
+            <h5 class="text-align-center login-margin">Enter your registered email to reset your password.</h5>
             <div class="login-input">
-                <i class="fa-regular fa-user"></i>
-                <input name="user_name" type="text" placeholder="Username">
+                <input name="email" type="email" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
             </div>
             <!-- <div class="validator" id="user_name_validator"> </div> -->
-            <div class="login-input ">
-                <i class="fa-solid fa-lock"></i>
-                <input name="password" type="password" placeholder="Password">
-            </div>
-            <!-- <div class="validator" id="user_name_validator"> </div> -->
-            <div>
-                <input type="checkbox" class="check_box"> Remember Me
-                <a href="./forgotpasspage.html" class="text-decoration-none text-white align-forgot-password text-hover text-end">Forgot password?</a>
-            </div>
-            <a class="text-decoration-none text-hover-2 login-button" href="./homepage.html">
-                <b>Login</b>
+            
+            <a class="text-decoration-none text-hover-2 login-button" href="">
+                <b>Reset Password</b>
             </a>
             <div class="font-style-register"><b>Don't have an account? </b><a href="./registerpage.html"
                     class="text-white text-decoration-none text-hover"><strong>Register</strong></a>
             </div>
+            <div class="font-style-register"><b>Already have an account? </b><a href="./loginpage.html"
+                    class="text-white text-decoration-none text-hover"><strong>Login</strong></a>
+            </div>
         </form>
     </div>
-    
+
 </body>
 
 </html>
