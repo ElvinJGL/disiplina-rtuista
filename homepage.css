@@ -4,6 +4,11 @@
 
 }
 
+.bg-color-2{
+    background-color: #052e61;
+
+}
+
 hr.hr{
     margin: 1rem;
     border: solid 2px;
@@ -17,6 +22,20 @@ hr.hr{
 
 .img-size{
     height: 550px;
+}
+
+.p{
+    padding-left: 5rem;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
 }
 
 
